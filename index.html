@@ -10,17 +10,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300&display=swap" rel="stylesheet">
 
+    <style>
+        body{background-color: #DEF2FE;}
+
+        main{
+            width: 700px;
+            margin-left:calc((100% - 700px) / 2); 
+            margin-top: 2vw;
+            display: inline-block;}
+
+        h1{font-size:100px; font-family: 'Noto Sans', sans-serif;  font-weight: 100; color:#0097F5;}
+
+        p{font-family: 'Noto Sans', sans-serif; font-size:16pt;  font-weight: bold; color:#0097F5;}
+
+        a{font-family: 'Noto Sans', sans-serif; font-size:16pt; text-decoration: none; color:#0097F5; text-transform: uppercase; padding:8px 10px 8px 10px; border:2px solid; border-color:#AADEFC;}
+        
+        a.help{
+            display: block; 
+            border:none;
+            font-size:12pt;
+            color: #AADEFC;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: 'Noto Sans', sans-serif;
+            margin:10px 25px 25px 25px;
+        }
+
+        img{height: 100%; margin-top: 100px; display:inline-block; float:right;}
+        
+    </style>
+
 </head>
-<body style="background-color: #DEF2FE;">
-    <main style="width: 66%; margin:100px 0 0 17%; display: inline-block;">
+<body >
+    <main >
         <div style="width:48%; display:inline-block">
-            <h1 style="font-size:100px; font-family: 'Noto Sans', sans-serif;  font-weight: 100; color:#0097F5;">Hmm.</h1>
-            <p style="font-family: 'Noto Sans', sans-serif; font-size:16pt;  font-weight: bold; color:#0097F5;">It seems that you're lost in a perpetual black hole. Let us help guide you out and get you back home</p>
-            <a href="" style="font-family: 'Noto Sans', sans-serif; font-size:16pt; text-decoration: none; color:#0097F5; text-transform: uppercase; padding:8px 10px 8px 10px; border:2px solid; border-color:#AADEFC ;">Back</a>
-            <a href="" style="font-family: 'Noto Sans', sans-serif; font-size:16pt; text-decoration: none; color:#0097F5; text-transform: uppercase; padding:8px 10px 8px 10px; border:2px solid; border-color:#AADEFC">Home</a>
-            <a href="" style="display: block; color: #AADEFC; text-transform: uppercase; text-decoration: none; font-family: 'Noto Sans', sans-serif; margin-top:20px; margin-left:25px;">Help me out</a>
+            <h1>Hmm.</h1>
+            <p>It seems that you're lost in a perpetual black hole. Let us help guide you out and get you back home</p>
+            <a href="" style="">Back</a>
+            <a href="" >Home</a>
+            <a  class="help" href="" >Help me out</a>
         </div>
-        <img src="./rocket.png" alt="" style="height: 100%; margin-top: 100px; display:inline-block; float:right;">
+        <img src="./rocket.png" alt="raketa">
     </main>
     
 </body>
